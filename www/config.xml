@@ -21,6 +21,7 @@
         The 'device' permission is required for the 'deviceready' event.
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="http://api.phonegap.com/1.0/device" />
 
     <!--
         If you do not want any permissions to be added to your app, add the
@@ -50,6 +51,7 @@
     <!-- Plugins can also be added here. -->
     <gap:plugin name="InAppBrowser" value="CDVInAppBrowser" />
     <gap:plugin name="Geolocation" value="CDVLocation" />
+    <plugin name="SplashScreen" value="CDVSplashScreen" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
