@@ -76,7 +76,7 @@
 
         Otherwise, you can specify specific domains:
     -->
-    <access origin="*"/> <!-- allow local pages -->
+    <access origin="*" browserOnly="true" subdomains="true"/> <!-- allow local pages -->
     <!--
         <access origin="*" />                    - allow any secure requests to http://phonegap.com/
         <access origin="*" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
