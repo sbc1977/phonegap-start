@@ -48,8 +48,8 @@
     <preference name="splash-screen-duration"     value="5000" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
     <!-- Plugins can also be added here. -->
-    <gap:plugin name="InAppBrowser" value="CDVInAppBrowser" />
-    <gap:plugin name="Geolocation" value="CDVLocation" />
+    <plugin name="InAppBrowser" value="CDVInAppBrowser" />
+    <plugin name="Geolocation" value="CDVLocation" />
     <plugin name="SplashScreen" value="CDVSplashScreen" />
 
     <!-- Define app icon for each platform. -->
@@ -76,7 +76,7 @@
 
         Otherwise, you can specify specific domains:
     -->
-    <access origin="*" browserOnly="true" subdomains="true"/> <!-- allow local pages -->
+    <access origin="*"/> <!-- allow local pages -->
     <!--
         <access origin="*" />                    - allow any secure requests to http://phonegap.com/
         <access origin="*" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
